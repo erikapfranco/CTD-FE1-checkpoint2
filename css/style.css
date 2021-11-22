@@ -46,10 +46,12 @@ footer{
 
 .logo{
     color: cornsilk;
+    margin-top:5px;
     float: left;
     margin-left: 15px;
-    font-size: 42px;
-    font-family: 'Playfair Display', serif;
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
 }
 
 html, body{

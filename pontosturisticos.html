@@ -25,7 +25,7 @@
                 <ul class="menu-links">
                     <li><a href="./index.html">Home</a></li>
                     <li><a href="./pontosturisticos.html">Pontos Turísticos</a></li>
-                    <li><a href="./contato.html">Contato</a></li>
+                    <li><a href="#caixa-box">Contato</a></li>
                 </ul>
             </div>
         </nav>
@@ -34,6 +34,68 @@
 
 
     <main>
+
+        <div id="caixa-box" class="caixa-box">
+            <div>
+              <a href="#close" title="Close" class="close">X</a>
+              <form style="background-color:rgba(255, 255, 255, 0.7); border-radius: 20px;">
+                <h2 class="contato">Fale Conosco</h2>
+      
+                <label for="nomesobrenome">Nome e sobrenome:</label>
+                <input type="text" id="nomesobrenome" class="input-padrao" placeholder="João da Silva" maxlength="100"
+                    required>
+      
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+      
+                <label for="telefone">Telefone:</label>
+                <input type="number" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+      
+                <label for="nascimento">Data de Nascimento:</label>
+                <input type="date" id="nascimento" class="input-padrao" required>
+      
+                <fieldset class="maiorIdade">
+                    <legend>Você é maior de idade?</legend>
+                    <label for="radio-idade"><input type="radio" name="idade" value="idade" id="radio-idade"
+                            checked> Sim</label>
+                    <label for="radio-idade"><input type="radio" name="idade" value="idade" id="radio-idade"> Não</label>
+                </fieldset>
+      
+                <fieldset class="pontoTuristico">
+      
+                    <legend>Ponto turístico de interesse</legend>
+                    <select name="interesses" id="interesses">
+                        <option value="#">Opcional</option>
+                        <option value="teatro-amazonas">Teatro Amazonas</option>
+                        <option value="musa">MUSA</option>
+                        <option value="palacio-justica">Palácio da Justiça</option>
+                        <option value="ponta-negra">Praia da Ponta Negra</option>
+                        <option value="museu-seringal">Museu do Seringal</option>
+                        <option value="bosque-ciencia">Bosque da Ciência</option>
+                        <option value="palacete-provincial">Palacete Provincial</option>
+                        <option value="encontro-aguas">Encontro das Águas</option>
+                        <option value="palacio-justica">Zoológico do CIGS</option>
+                    </select>
+                </fieldset>
+      
+                <fieldset class="interesse">
+                    <legend>Qual é o seu interesse na cidade?</legend>
+                    <label class="checkbox"><input type="checkbox" checked> Turista</label>
+      
+                    <label class="checkbox"><input type="checkbox"> Residente</label>
+      
+                    <label class="checkbox"><input type="checkbox"> Estudante</label>
+                </fieldset>
+      
+                <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades da cidade por
+                    e-mail</label>
+      
+                <input type="submit" value="Enviar formulário" class="enviar">
+      
+                <input type="reset" value="Limpar" class="cancelar">
+            </form>
+            </div>
+          </div> 
 
         <ul class="turismo">
             <li>

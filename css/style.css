@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Gudea&family=Playfair+Display:wght@500&family=Roboto&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Inicio Index */
 
 header{
     height: 50px;
@@ -101,12 +105,12 @@ span{
     padding:10px;
     width: 640px;
     margin:auto;
+    font-family: 'Gudea', sans-serif;
     border-radius: 10px;
 }
 
 .curious{
-    color:white;
-    text-shadow: 3px 2.5px black;
+    color:black;
     font-family: 'Roboto', sans-serif;
     padding:10px;
     font-weight: bold;
@@ -120,11 +124,15 @@ span{
     margin: 0 auto;
     padding: 20px 50px;
     color:black;
-    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
     background-color: #ddd7cc;
     max-width: 800px;
     text-align: center;
     line-height: 1.4;
+}
+
+.curiosidades li{
+    font-weight: bold;
 }
 
 
@@ -154,7 +162,11 @@ form{
 form label, form legend {
     display: block;
     font-size: 20px;
-    margin: 0 0 10px;
+    margin: 15px;
+}
+
+h2{
+    font-size: 32px;
 }
 
 .input-padrao {
@@ -185,6 +197,7 @@ option{
     display:flex;
     justify-content:space-around;
     margin:auto;
+    margin-top: 15px;
     width: 45vw;
 }
 
@@ -278,6 +291,7 @@ option{
 
 .turismo img{
     width: 200px;
+    margin-top: 5px;
 }
 
 .turismo li:hover {
